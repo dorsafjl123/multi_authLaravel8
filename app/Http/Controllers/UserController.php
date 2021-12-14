@@ -13,7 +13,7 @@ class UserController extends Controller
     function profile(){
         return view('dashboards.users.profile');
     }
-    function setting(){
+    function settings(){
         return view('dashboards.users.settings');
     }
 }
